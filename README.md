@@ -11,4 +11,4 @@ Algorithm <br/>
 210330 markdown 사용법, push오류 잡음. <br/>
 210331 NeXTSTEP, 졸프 google vision api Java연동코드 업뎃 <br/>
 210405 android 졸프 회의 <br/>
-210406 
+210407 UpBit api 연동 공부 <br/>
