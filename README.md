@@ -12,3 +12,5 @@ Algorithm <br/>
 210331 NeXTSTEP, 졸프 google vision api Java연동코드 업뎃 <br/>
 210405 android 졸프 회의 <br/>
 210407 UpBit api 연동 공부 <br/>
+210413 졸프 개발 코드<br/>
+210414 정처기 실기 준비 요약 정리 <br/>
