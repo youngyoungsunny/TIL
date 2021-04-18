@@ -32,3 +32,5 @@ contract GavCoin
 
 }
 ~~~
+
+개념 출처: https://ko.wikipedia.org/wiki/%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0 <br/>
