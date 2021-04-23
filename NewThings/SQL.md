@@ -23,7 +23,7 @@ check point (롤백을 위한 시점 설정) <br/><br/><br/>
 
 
 ~~~sql
-select *
+select *   
 from student
 where dept = '컴퓨터과학';
 ~~~~
