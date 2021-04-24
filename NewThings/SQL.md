@@ -30,7 +30,9 @@ where dept = '컴퓨터과학';
 
 
 ~~~sql
-
+select *
+from 학생
+where 학년 =1 or 수강과목 = '운영체제';  //and
 ~~~
 
 
