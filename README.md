@@ -19,5 +19,4 @@ Algorithm <br/>
 210428 안드로이드 개발 - 일일 가계부 데이터 조회, 다른 액티비티에서 특정 액티비티 종료 시키기<br/>
 210429 github pull request 및 명령어 공부<br/>
 210510  <br/>
-<br/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
