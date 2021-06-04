@@ -113,3 +113,6 @@ IndexError: list index out of range
 • >>> print(a) à {2: '나', 3: '다', 4: '라', 5: '마‘, 6:’상명’}
 • for k in a.keys() :
 • print(“%
+
+
+
