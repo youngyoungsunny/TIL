@@ -1,11 +1,13 @@
-### 순서  
-select<br/>
-from <br/>
-where <br/>
-group by having  <br/> 
-order by ASC | DESC<br/><br/><br/><br/>
+### SQL문 순서
+~~~sql
+select
+from 
+where
+group by having 
+order by ASC | DESC
+~~~
 
------------------------------------------------------------------
+
 
 ### DDL
 
