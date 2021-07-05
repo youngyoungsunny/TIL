@@ -6,25 +6,26 @@ where
 group by having 
 order by ASC | DESC
 ~~~
-
-
-
-### DDL
-
+------------------------------------------------------
+#### DDL : create, alter, drop
+#### DML : select, insert, update, delete
+#### DCL : commit(연산이 성공적으로 종료되어 연산에 의한 수정내용을 지속적으로 유지하기 위한 명령어), rollback(비정상적인 종료 혹은 정상적 수행이더라도 그 전으로 돌리기 위해서 연산내용을 취소)
+------------------------------------------------------
 
 ### DDL
 - insert<br/>
 - delete<br/>
 
 ### DCL
-grant<br/>
-revoke<br/>
+- grant<br/>
+- revoke<br/>
 
 ### TCL (트랜잭션 제어)
-commit <br/>
-rollback <br/>
-check point (롤백을 위한 시점 설정) <br/><br/><br/>
+- commit <br/>
+- rollback <br/>
+- check point (롤백을 위한 시점 설정) <br/><br/><br/>
 
+-------------------------------------------------------
 
 ~~~sql
 select *   
@@ -41,52 +42,87 @@ where 학년 =1 or 수강과목 = '운영체제';  //and
 
 
 ~~~sql
-
+select distinct 수강과목   //distinct : 중복값 제거
+from 학생
+where 학생 >= 2;
 ~~~
 
 
 ~~~sql
 
-~~~
+집계함수 : sum() , avg(), max(), min(), count()
 
 
-~~~sql
-
-~~~
-
-
-~~~sql
+select sum(점수)
+from 학생
+where 학년 = 1;
 
 ~~~
 
 
 ~~~sql
+//order by
+
+select 성명
+from 학생
+where 점수 >= 85
+order by 학번 ASC;  //DESC
 
 ~~~
 
 
 ~~~sql
+select 학년
+from 학생
+group by 학년
+having count(*)>=2 ;
 
+//학생 테이블에서 2명 이상인 학년을 검색하시오.
+~~~
+
+
+~~~sql
+//부속(하위)질문
+
+select 학생수
+from 학과 인원
+where = 학과 = 
+ (select 학과
+  from 학생정보
+  where 이름 = '이영진');
+~~~
+
+
+~~~sql
+//부분 매치 질의문
+select 성명
+from 학생
+where 연락처 like '%7588';
+~~~
+
+
+~~~sql
+insert into 테이블이름(학번, 성명, 학년, 수강과목, 연락처) values (051115, '김정미', 4, '데이터베이스', '243-0007');
+~~~
+
+
+~~~sql
+// 학생 테이블에서 '이영진' 학생의 저수를 92점으로 수정하시오.
+update 학생
+set 점수 = 92
+where 성명 = '이영진';
+~~~
+
+
+~~~sql
+delete from 학생
+where 학년 = 2 ;
 ~~~
 
 
 ~~~sql
 
-~~~
-
-
-~~~sql
-
-~~~
-
-
-~~~sql
-
-~~~
-
-
-~~~sql
-
+delete from 학생; //학생 테이블 전체 삭제
 ~~~
 
 -----------------------------------------------
