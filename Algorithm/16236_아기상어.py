@@ -46,11 +46,11 @@ while True:
 
             #그 위치에 아무도 없지 않고(즉, 물고기가 있고), 물고기의 크기가 아기상어보다 작으면
             if siteArr[nx][ny] != 0 and siteArr[nx][ny] < babySharkSize:
-                fish.append((nx, ny, count+1)) #fish의 위치, 움직인 크기 더해주기
+                fish.append((nx, ny, count+1)) #fish의 위치, 아기상어가 움직인 크기 더해주기
                 flag = count #flag에 count값을 넣어줌.
 
             visited[nx][ny] = True #방문했음
-            q.append((nx,ny,count+1))
+            q.append((nx,ny,count+1)) #현재 아기 상어 상태를 이렇게 바꿔주기
 
     if len(fish) > 0: #아기 상어가 먹을 수 있는 물고기가 있다면
         fish.sort() #다 모은 fish들을 sort한다.
