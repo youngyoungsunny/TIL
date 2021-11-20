@@ -24,6 +24,15 @@ local과 network뜨는거 올려보기
 
 ----------------------------------------------------------------------
 
+### 오류 처리 log 
+- npm start시 Error: error:0308010C:digital envelope routines::unsupported 발생
+> https://stackoverflow.com/questions/69665222/node-17-0-1-causes-some-error-digital-envelope-routinesunsupported  <br/><br/>
+
+- 
+
+
+
+---------------------------------------------
 ~~~
 메모장
 - public/index.html이 메인페이지
@@ -36,3 +45,15 @@ local과 network뜨는거 올려보기
 ~~~
 
 ---------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/48751536/142716681-3b0afcee-0faa-47b1-888c-265758cce6fc.png)
+
+---------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/48751536/142716790-edfbb36a-9b50-48cd-9e17-e1641711f46e.png)
+
+>> state로 써야 재랜더링이 좋다.
+>> let으로 쓸 경우, F5를 해줘야 재랜더링이 진행됨.
+
+
+---------------------------------------------------------------------![image](https://user-images.githubusercontent.com/48751536/142717778-dc9ed157-fbaa-495f-8efa-41de24ada8dd.png)
+
