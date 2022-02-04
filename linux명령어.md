@@ -12,24 +12,26 @@ ls -altr
 ls -l
 ~~~
 
-
+### diff 비교 명령어
 ~~~linux
-sdiff  file1  file2
+sdiff  file1  file2        //프로그램 수정 후, 파일 변경 전 후 비교
 ~~~
 
-
+### 정렬 명령어
 ~~~linux
 sort bbb
 
-sort -u bbb
+sort -u bbb   // -u : 중복제거
 ~~~
 
 
-
+### find : 파일 찾기
 ~~~linux
 find . -name 'sykim'
 ~~~
 
+
+### grep : 파일에서 내가 원하는 keyword를 찾아줌
 ~~~linux
 grep 'sykim' /etc/passwd
 
