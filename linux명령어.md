@@ -3,7 +3,7 @@
 file 파일명     //UTF-8인지 나옴. (한글이 포함된 파일의 경우, file명령어로 UTF-8인지 확인 필수)
 ~~~
 
-### 폴더 안 파일 정렬
+### 폴더 안 파일 정렬 (ls = list segments)
 ~~~linux
 ls  //list segments의 약자, 파일과 directory 정보 제공
 ls -ltr
@@ -34,5 +34,7 @@ find . -name 'sykim'
 ### grep : 파일에서 내가 원하는 keyword를 찾아줌
 ~~~linux
 grep 'sykim' /etc/passwd
-
 ~~~
+
+
+### touch : 유효한 bin
