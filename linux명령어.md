@@ -36,6 +36,7 @@ find . -name 'sykim'
 ### grep : 파일에서 내가 원하는 keyword를 찾아줌
 ~~~linux
 grep 'sykim' /etc/passwd
+grep B1XX.AXX* B2XX.AXX* | "14:" | wc   // wc 명령어란? wc : 주어지는 파일 또는 표준 입력의 바이트, 문자, 단어 그리고 줄(라인) 수를 출력해주는 명령어입니다. wc 는 'word count'를 의미
 ~~~
 <br/><br/><br/><br/>
 ### touch : 유효한 bin 파일을 생성하기 위해 씀. 0바이트 파일 생성
@@ -44,7 +45,7 @@ grep 'sykim' /etc/passwd
 ~~~
 #### touch 옵션 #
 - a : 현 시간으로 파일의 접근 시간, 변경 시간을 수정
-~~~
+~~~linux
 $ touch -a a
 ~~~
 
