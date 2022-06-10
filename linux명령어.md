@@ -43,7 +43,7 @@ grep B1XX.AXX* B2XX.AXX* | "14:" | wc   // wc 명령어란? wc : 주어지는 �
 ~~~linux
  touch [파일명]
 ~~~
-#### touch 옵션 #
+## touch 옵션 #
 - a : 현 시간으로 파일의 접근 시간, 변경 시간을 수정
 ~~~linux
 $ touch -a a
