@@ -1,5 +1,5 @@
 ### 파일 확장자 확인
-~~~
+~~~linux
 file 파일명  //출력결과: UTF-8  
 
 (한글이 포함된 파일의 경우, file명령어로 UTF-8인지 확인 필수)    
@@ -71,7 +71,45 @@ $ touch -m a
 ~~~~
 <br/><br/><br/><br/>
 
+### cat 명령어 
+~~~linux
+cat file1    //file1 파일을 연다.
 
+cat -b file1  //각 행에 번호를 붙여서 출력
+
+cat -n file1  //빈 행에도 번호를 붙여서 출력
+
+cat -s file1  //연속되는 2개 이상의 빈행을 하나의 행으로 출력
+
+
+~~~
+
+
+### head : 파일의 앞 부분부터 확인하는 명령어 
+~~~linux
+head file1   //file1의 10행까지만 출력(default)
+
+head -n 20 file1  //file1의 20줄까지 출력
+
+head -c 200 file1  //file1의 200byte까지의 내용을 출력
+~~~
+
+
+### tail : 파일의 마지막 부분을 확인하는 명령어
+- 실무에서는 특정 파일에 계속 추가되는 모든 내용을 모니터링 할 수 있어서 유용.
+- /log dir에 존재하는 많은 시스템로그파일들의 로그 내용을 실시간으로 모니터링하기 위한 용도로 많이 쓰임.
+~~~linux
+tail file1   //file1의 마지막 10개행을 출력
+
+tail -n 20 file1  //file1의 마지막 부분의 20개행까지 출력
+
+tail -c 200 file1  //file1의 마지막에서 200byte까지를 출력
+
+
+#### 로그파일을 실시간으로 모니터링
+tail -f /var/log/messages    //종료는 ctrl+c
+
+~~~
 ### vim 명령어
 
 > 잠깐! vi vs vim는 무슨 차이인가요?
