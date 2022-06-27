@@ -30,7 +30,7 @@ order by ASC | DESC
 ### TCL (트랜잭션 제어)
 - commit <br/>
 - rollback <br/>
-- check point (롤백을 위한 시점 설정) <br/><br/><br/>
+- check point (롤백을 위한 시점 설정) <br/><br/><br/>  
 -------------------------------------------------------
 
 ~~~sql
