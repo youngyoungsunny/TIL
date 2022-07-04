@@ -7,7 +7,7 @@ n = int(input())
 
 siteArr = [list(map(int, input().split())) for _ in range(n)]
 
-dx = [-1,1,0,0] #상어가 움직일 수 있는 곳
+dx = [-1,1,0,0] #상어가 움직일 수 있는 곳  
 dy = [0,0,-1,1]
 
 sx, sy = 0,0 #상어 위치 표시
