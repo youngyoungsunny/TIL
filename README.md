@@ -17,3 +17,4 @@ Oracle SQL<br/>
 
 https://zero-base.co.kr/event/media_BE_school_roadmap?gclid=EAIaIQobChMIjZ_Ih_2c-AIVgzMqCh0yVgVfEAAYAiAAEgLhkfD_BwE
 https://d2.naver.com/news/3435170
+  
