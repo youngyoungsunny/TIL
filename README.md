@@ -9,7 +9,7 @@ python <br/>
 Android Java <br/>
 Algorithm <br/>
 Data Structure <br/>
-New things(신기술) <br/>
+New things(신기술) <br/> 
 업무회고<br/>
 Oracle SQL<br/>
 참고 사이트 : https://github.com/namjunemy/TIL#%EC%9E%91%EC%84%B1-%EA%B7%9C%EC%B9%99
