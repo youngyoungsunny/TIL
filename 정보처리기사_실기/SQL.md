@@ -10,7 +10,7 @@
 select
 from 
 where
-group by having 
+group by having  
 order by ASC | DESC
 ~~~
 ------------------------------------------------------
