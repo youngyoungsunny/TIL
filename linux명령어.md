@@ -47,7 +47,7 @@ touch [파일명]
 ~~~
 ## touch 옵션 #
 - a : 현 시간으로 파일의 접근 시간, 변경 시간을 수정
-~~~console
+~~~console 
 touch -a a
 ~~~
 
