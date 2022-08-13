@@ -37,6 +37,8 @@ find . -name 'sykim'
 ~~~console
 grep 'sykim' /etc/passwd
 grep B1XX.AXX* B2XX.AXX* | "14:" | wc   // wc 명령어란? wc : 주어지는 파일 또는 표준 입력의 바이트, 문자, 단어 그리고 줄(라인) 수를 출력해주는 명령어입니다. wc 는 'word count'를 의미
+
+grep 'KEYWORD' *.sql    //해당 dir에 있는 .sql로 끝나는 파일에서 'KEYWORD'를 찾는다.
 ~~~
 
 
@@ -110,6 +112,21 @@ tail -c 200 file1  //file1의 마지막에서 200byte까지를 출력
 tail -f /var/log/messages    //종료는 ctrl+c
 
 ~~~
+
+
+### pwd : 현재 dir 확인
+~~~console
+
+pwd
+
+>>/home/testdir
+
+~~~
+
+
+### clear : cmd 창에 보이는 내용을 모두 clear함
+
+###
 ### vim 명령어
 
 > 잠깐! vi vs vim는 무슨 차이인가요?
