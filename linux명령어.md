@@ -132,4 +132,4 @@ pwd
 > 잠깐! vi vs vim는 무슨 차이인가요?
 >> UNIX의 기본 편집기가 vi, vi를 개량한 버전이 vim 에디터
 >> VIM : Vi IMproved (향상된 Vi)
-|
+| 
