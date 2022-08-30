@@ -7,7 +7,7 @@ file 파일명  //출력결과: UTF-8
 
 ### 폴더 안 파일 정렬 (ls = list segments)
 ~~~console
-ls  //list segments의 약자, 파일과 directory 정보 제공
+ls  //list segments의 약자, 파일과 directory 정보 제공  
 ls -ltr
 ls -altr
 
