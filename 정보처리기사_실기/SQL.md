@@ -3,42 +3,43 @@
 - 순수 관계 연산자 : select, project, join, division
 - 일반 집합 연산자 : 합집합, 교집합, 차집합, 카티젼 프로덕트
 
--관계해석 : 릴레이션에서 결과를 얻기 위한 과정을 표현한 것으로 연산자 없이 정의하는 방법을 이용하는 "비절차적" 언어이다.
+- 관계해석 : 릴레이션에서 결과를 얻기 위한 과정을 표현한 것으로 연산자 없이 정의하는 방법을 이용하는 "비절차적" 언어이다.
 
 ### SQL문 순서
 ~~~sql
-select
-from 
-where
-group by having  
-order by ASC | DESC
+SELECT
+FROM
+WHERE
+GROUP BY HAVING
+ORDER BY ASC | DESC 
 ~~~
 ------------------------------------------------------
-#### DDL : create, alter, drop
-#### DML : select, insert, update, delete
-#### DCL : commit(연산이 성공적으로 종료되어 연산에 의한 수정내용을 지속적으로 유지하기 위한 명령어), 
-   rollback(비정상적인 종료 혹은 정상적 수행이더라도 그 전으로 돌리기 위해서 연산내용을 취소)
+#### DDL : CREATE , ALTER , DROP
+#### DML : SELECT , INSERT, UPDATE, DELETE
+#### DCL : COMMIT    //연산이 성공적으로 종료되어 연산에 의한 수정내용을 지속적으로 유지하기 위한 명령어
+####       ROLLBACK  //비정상적인 종료 혹은 정상적 수행이더라도 그 전으로 돌리기 위해서 연산내용을 취소
 ------------------------------------------------------
 ### DDL
-- insert<br/>
-- delete<br/>
+- INSERT
+- DELETE
 
 ### DCL
-- grant<br/>
-- revoke<br/>
+- GRANT
+- REVOKE
 
 ### TCL (트랜잭션 제어)
-- commit <br/>
-- rollback <br/>
-- check point (롤백을 위한 시점 설정) <br/><br/><br/>  
+- COMMIT
+- ROLLBACK
+- CHECK POINT (롤백을 위한 시점 설정) <br/><br/><br/>  
 -------------------------------------------------------
 
+
+### SQL문 기본 예시
 ~~~sql
 select *   
 from student
-where dept = '컴퓨터과학';
+where dept = '조건절';
 ~~~~
-
 
 ~~~sql
 select *
