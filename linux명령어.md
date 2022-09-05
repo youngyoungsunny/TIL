@@ -117,7 +117,7 @@ tail -f /var/log/messages    //종료는 ctrl+c
 ### pwd : 현재 dir 확인
 ~~~console
 
-pwd
+pwd 
 
 >>/home/testdir
 
